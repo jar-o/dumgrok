@@ -6,7 +6,6 @@ dumdum --file dum.stanza --verbose &
 
 sleep 2
 echo 'You will need to point to one of these URLs'
-
 wget -q -O - 2>&1 http://localhost:4040/api/tunnels | python -mjson.tool | grep public_url
 
 # Since we've backgrounded ngrok, let's at least see what it says when we hit
