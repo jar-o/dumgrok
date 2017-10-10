@@ -1,207 +1,1363 @@
-# This dumdum stanza simply enumerates HTTP verbs and some common status codes
+# This dumdum stanza simply enumerates HTTP verbs and a lot of the status codes
 # as endpoints.
 
 > GET
 > /200
+< status 200
 .
 > POST
 > /200
+< status 200
 .
 > PUT
 > /200
+< status 200
 .
 > DELETE
 > /200
+< status 200
 .
 > GET
 > /201
+< status 201
 .
 > POST
 > /201
+< status 201
 .
 > PUT
 > /201
+< status 201
 .
 > DELETE
 > /201
+< status 201
 .
 > GET
 > /202
+< status 202
 .
 > POST
 > /202
+< status 202
 .
 > PUT
 > /202
+< status 202
 .
 > DELETE
 > /202
+< status 202
+.
+> GET
+> /203
+< status 203
+.
+> POST
+> /203
+< status 203
+.
+> PUT
+> /203
+< status 203
+.
+> DELETE
+> /203
+< status 203
+.
+> GET
+> /204
+< status 204
+.
+> POST
+> /204
+< status 204
+.
+> PUT
+> /204
+< status 204
+.
+> DELETE
+> /204
+< status 204
+.
+> GET
+> /205
+< status 205
+.
+> POST
+> /205
+< status 205
+.
+> PUT
+> /205
+< status 205
+.
+> DELETE
+> /205
+< status 205
+.
+> GET
+> /206
+< status 206
+.
+> POST
+> /206
+< status 206
+.
+> PUT
+> /206
+< status 206
+.
+> DELETE
+> /206
+< status 206
+.
+> GET
+> /207
+< status 207
+.
+> POST
+> /207
+< status 207
+.
+> PUT
+> /207
+< status 207
+.
+> DELETE
+> /207
+< status 207
+.
+> GET
+> /208
+< status 208
+.
+> POST
+> /208
+< status 208
+.
+> PUT
+> /208
+< status 208
+.
+> DELETE
+> /208
+< status 208
+.
+> GET
+> /226
+< status 226
+.
+> POST
+> /226
+< status 226
+.
+> PUT
+> /226
+< status 226
+.
+> DELETE
+> /226
+< status 226
 .
 > GET
 > /300
+< status 300
 .
 > POST
 > /300
+< status 300
 .
 > PUT
 > /300
+< status 300
 .
 > DELETE
 > /300
+< status 300
 .
 > GET
 > /301
+< status 301
 .
 > POST
 > /301
+< status 301
 .
 > PUT
 > /301
+< status 301
 .
 > DELETE
 > /301
+< status 301
 .
 > GET
 > /302
+< status 302
 .
 > POST
 > /302
+< status 302
 .
 > PUT
 > /302
+< status 302
 .
 > DELETE
 > /302
+< status 302
+.
+> GET
+> /303
+< status 303
+.
+> POST
+> /303
+< status 303
+.
+> PUT
+> /303
+< status 303
+.
+> DELETE
+> /303
+< status 303
 .
 > GET
 > /304
+< status 304
 .
 > POST
 > /304
+< status 304
 .
 > PUT
 > /304
+< status 304
 .
 > DELETE
 > /304
+< status 304
+.
+> GET
+> /305
+< status 305
+.
+> POST
+> /305
+< status 305
+.
+> PUT
+> /305
+< status 305
+.
+> DELETE
+> /305
+< status 305
+.
+> GET
+> /306
+< status 306
+.
+> POST
+> /306
+< status 306
+.
+> PUT
+> /306
+< status 306
+.
+> DELETE
+> /306
+< status 306
 .
 > GET
 > /307
+< status 307
 .
 > POST
 > /307
+< status 307
 .
 > PUT
 > /307
+< status 307
 .
 > DELETE
 > /307
+< status 307
 .
 > GET
-> /400
+> /308
+< status 308
 .
 > POST
-> /400
+> /308
+< status 308
 .
 > PUT
-> /400
+> /308
+< status 308
 .
 > DELETE
-> /400
-.
-> GET
-> /401
-.
-> POST
-> /401
-.
-> PUT
-> /401
-.
-> DELETE
-> /401
-.
-> GET
-> /403
-.
-> POST
-> /403
-.
-> PUT
-> /403
-.
-> DELETE
-> /403
+> /308
+< status 308
 .
 > GET
 > /404
+< status 404
 .
 > POST
 > /404
+< status 404
 .
 > PUT
 > /404
+< status 404
 .
 > DELETE
 > /404
+< status 404
+.
+> GET
+> /400
+< status 400
+.
+> POST
+> /400
+< status 400
+.
+> PUT
+> /400
+< status 400
+.
+> DELETE
+> /400
+< status 400
+.
+> GET
+> /401
+< status 401
+.
+> POST
+> /401
+< status 401
+.
+> PUT
+> /401
+< status 401
+.
+> DELETE
+> /401
+< status 401
+.
+> GET
+> /402
+< status 402
+.
+> POST
+> /402
+< status 402
+.
+> PUT
+> /402
+< status 402
+.
+> DELETE
+> /402
+< status 402
+.
+> GET
+> /403
+< status 403
+.
+> POST
+> /403
+< status 403
+.
+> PUT
+> /403
+< status 403
+.
+> DELETE
+> /403
+< status 403
+.
+> GET
+> /404
+< status 404
+.
+> POST
+> /404
+< status 404
+.
+> PUT
+> /404
+< status 404
+.
+> DELETE
+> /404
+< status 404
+.
+> GET
+> /405
+< status 405
+.
+> POST
+> /405
+< status 405
+.
+> PUT
+> /405
+< status 405
+.
+> DELETE
+> /405
+< status 405
+.
+> GET
+> /406
+< status 406
+.
+> POST
+> /406
+< status 406
+.
+> PUT
+> /406
+< status 406
+.
+> DELETE
+> /406
+< status 406
+.
+> GET
+> /407
+< status 407
+.
+> POST
+> /407
+< status 407
+.
+> PUT
+> /407
+< status 407
+.
+> DELETE
+> /407
+< status 407
+.
+> GET
+> /408
+< status 408
+.
+> POST
+> /408
+< status 408
+.
+> PUT
+> /408
+< status 408
+.
+> DELETE
+> /408
+< status 408
+.
+> GET
+> /409
+< status 409
+.
+> POST
+> /409
+< status 409
+.
+> PUT
+> /409
+< status 409
+.
+> DELETE
+> /409
+< status 409
 .
 > GET
 > /410
+< status 410
 .
 > POST
 > /410
+< status 410
 .
 > PUT
 > /410
+< status 410
 .
 > DELETE
 > /410
+< status 410
+.
+> GET
+> /411
+< status 411
+.
+> POST
+> /411
+< status 411
+.
+> PUT
+> /411
+< status 411
+.
+> DELETE
+> /411
+< status 411
+.
+> GET
+> /412
+< status 412
+.
+> POST
+> /412
+< status 412
+.
+> PUT
+> /412
+< status 412
+.
+> DELETE
+> /412
+< status 412
+.
+> GET
+> /413
+< status 413
+.
+> POST
+> /413
+< status 413
+.
+> PUT
+> /413
+< status 413
+.
+> DELETE
+> /413
+< status 413
+.
+> GET
+> /414
+< status 414
+.
+> POST
+> /414
+< status 414
+.
+> PUT
+> /414
+< status 414
+.
+> DELETE
+> /414
+< status 414
+.
+> GET
+> /415
+< status 415
+.
+> POST
+> /415
+< status 415
+.
+> PUT
+> /415
+< status 415
+.
+> DELETE
+> /415
+< status 415
+.
+> GET
+> /416
+< status 416
+.
+> POST
+> /416
+< status 416
+.
+> PUT
+> /416
+< status 416
+.
+> DELETE
+> /416
+< status 416
+.
+> GET
+> /417
+< status 417
+.
+> POST
+> /417
+< status 417
+.
+> PUT
+> /417
+< status 417
+.
+> DELETE
+> /417
+< status 417
+.
+> GET
+> /418
+< status 418
+.
+> POST
+> /418
+< status 418
+.
+> PUT
+> /418
+< status 418
+.
+> DELETE
+> /418
+< status 418
+.
+> GET
+> /421
+< status 421
+.
+> POST
+> /421
+< status 421
+.
+> PUT
+> /421
+< status 421
+.
+> DELETE
+> /421
+< status 421
+.
+> GET
+> /422
+< status 422
+.
+> POST
+> /422
+< status 422
+.
+> PUT
+> /422
+< status 422
+.
+> DELETE
+> /422
+< status 422
+.
+> GET
+> /423
+< status 423
+.
+> POST
+> /423
+< status 423
+.
+> PUT
+> /423
+< status 423
+.
+> DELETE
+> /423
+< status 423
+.
+> GET
+> /424
+< status 424
+.
+> POST
+> /424
+< status 424
+.
+> PUT
+> /424
+< status 424
+.
+> DELETE
+> /424
+< status 424
+.
+> GET
+> /426
+< status 426
+.
+> POST
+> /426
+< status 426
+.
+> PUT
+> /426
+< status 426
+.
+> DELETE
+> /426
+< status 426
+.
+> GET
+> /428
+< status 428
+.
+> POST
+> /428
+< status 428
+.
+> PUT
+> /428
+< status 428
+.
+> DELETE
+> /428
+< status 428
+.
+> GET
+> /429
+< status 429
+.
+> POST
+> /429
+< status 429
+.
+> PUT
+> /429
+< status 429
+.
+> DELETE
+> /429
+< status 429
+.
+> GET
+> /431
+< status 431
+.
+> POST
+> /431
+< status 431
+.
+> PUT
+> /431
+< status 431
+.
+> DELETE
+> /431
+< status 431
+.
+> GET
+> /451
+< status 451
+.
+> POST
+> /451
+< status 451
+.
+> PUT
+> /451
+< status 451
+.
+> DELETE
+> /451
+< status 451
 .
 > GET
 > /500
+< status 500
 .
 > POST
 > /500
+< status 500
 .
 > PUT
 > /500
+< status 500
 .
 > DELETE
 > /500
+< status 500
 .
 > GET
 > /501
+< status 501
 .
 > POST
 > /501
+< status 501
 .
 > PUT
 > /501
+< status 501
 .
 > DELETE
 > /501
+< status 501
+.
+> GET
+> /502
+< status 502
+.
+> POST
+> /502
+< status 502
+.
+> PUT
+> /502
+< status 502
+.
+> DELETE
+> /502
+< status 502
 .
 > GET
 > /503
+< status 503
 .
 > POST
 > /503
+< status 503
 .
 > PUT
 > /503
+< status 503
 .
 > DELETE
 > /503
+< status 503
 .
 > GET
-> /550
+> /504
+< status 504
 .
 > POST
-> /550
+> /504
+< status 504
 .
 > PUT
-> /550
+> /504
+< status 504
 .
 > DELETE
-> /550
+> /504
+< status 504
+.
+> GET
+> /505
+< status 505
+.
+> POST
+> /505
+< status 505
+.
+> PUT
+> /505
+< status 505
+.
+> DELETE
+> /505
+< status 505
+.
+> GET
+> /506
+< status 506
+.
+> POST
+> /506
+< status 506
+.
+> PUT
+> /506
+< status 506
+.
+> DELETE
+> /506
+< status 506
+.
+> GET
+> /507
+< status 507
+.
+> POST
+> /507
+< status 507
+.
+> PUT
+> /507
+< status 507
+.
+> DELETE
+> /507
+< status 507
+.
+> GET
+> /508
+< status 508
+.
+> POST
+> /508
+< status 508
+.
+> PUT
+> /508
+< status 508
+.
+> DELETE
+> /508
+< status 508
+.
+> GET
+> /510
+< status 510
+.
+> POST
+> /510
+< status 510
+.
+> PUT
+> /510
+< status 510
+.
+> DELETE
+> /510
+< status 510
+.
+> GET
+> /511
+< status 511
+.
+> POST
+> /511
+< status 511
+.
+> PUT
+> /511
+< status 511
+.
+> DELETE
+> /511
+< status 511
+.
+> GET
+> /103
+< status 103
+.
+> POST
+> /103
+< status 103
+.
+> PUT
+> /103
+< status 103
+.
+> DELETE
+> /103
+< status 103
+.
+> GET
+> /103
+< status 103
+.
+> POST
+> /103
+< status 103
+.
+> PUT
+> /103
+< status 103
+.
+> DELETE
+> /103
+< status 103
+.
+> GET
+> /420
+< status 420
+.
+> POST
+> /420
+< status 420
+.
+> PUT
+> /420
+< status 420
+.
+> DELETE
+> /420
+< status 420
+.
+> GET
+> /420
+< status 420
+.
+> POST
+> /420
+< status 420
+.
+> PUT
+> /420
+< status 420
+.
+> DELETE
+> /420
+< status 420
+.
+> GET
+> /450
+< status 450
+.
+> POST
+> /450
+< status 450
+.
+> PUT
+> /450
+< status 450
+.
+> DELETE
+> /450
+< status 450
+.
+> GET
+> /498
+< status 498
+.
+> POST
+> /498
+< status 498
+.
+> PUT
+> /498
+< status 498
+.
+> DELETE
+> /498
+< status 498
+.
+> GET
+> /499
+< status 499
+.
+> POST
+> /499
+< status 499
+.
+> PUT
+> /499
+< status 499
+.
+> DELETE
+> /499
+< status 499
+.
+> GET
+> /509
+< status 509
+.
+> POST
+> /509
+< status 509
+.
+> PUT
+> /509
+< status 509
+.
+> DELETE
+> /509
+< status 509
+.
+> GET
+> /530
+< status 530
+.
+> POST
+> /530
+< status 530
+.
+> PUT
+> /530
+< status 530
+.
+> DELETE
+> /530
+< status 530
+.
+> GET
+> /598
+< status 598
+.
+> POST
+> /598
+< status 598
+.
+> PUT
+> /598
+< status 598
+.
+> DELETE
+> /598
+< status 598
+.
+> GET
+> /440
+< status 440
+.
+> POST
+> /440
+< status 440
+.
+> PUT
+> /440
+< status 440
+.
+> DELETE
+> /440
+< status 440
+.
+> GET
+> /449
+< status 449
+.
+> POST
+> /449
+< status 449
+.
+> PUT
+> /449
+< status 449
+.
+> DELETE
+> /449
+< status 449
+.
+> GET
+> /451
+< status 451
+.
+> POST
+> /451
+< status 451
+.
+> PUT
+> /451
+< status 451
+.
+> DELETE
+> /451
+< status 451
+.
+> GET
+> /444
+< status 444
+.
+> POST
+> /444
+< status 444
+.
+> PUT
+> /444
+< status 444
+.
+> DELETE
+> /444
+< status 444
+.
+> GET
+> /495
+< status 495
+.
+> POST
+> /495
+< status 495
+.
+> PUT
+> /495
+< status 495
+.
+> DELETE
+> /495
+< status 495
+.
+> GET
+> /496
+< status 496
+.
+> POST
+> /496
+< status 496
+.
+> PUT
+> /496
+< status 496
+.
+> DELETE
+> /496
+< status 496
+.
+> GET
+> /497
+< status 497
+.
+> POST
+> /497
+< status 497
+.
+> PUT
+> /497
+< status 497
+.
+> DELETE
+> /497
+< status 497
+.
+> GET
+> /499
+< status 499
+.
+> POST
+> /499
+< status 499
+.
+> PUT
+> /499
+< status 499
+.
+> DELETE
+> /499
+< status 499
+.
+> GET
+> /520
+< status 520
+.
+> POST
+> /520
+< status 520
+.
+> PUT
+> /520
+< status 520
+.
+> DELETE
+> /520
+< status 520
+.
+> GET
+> /521
+< status 521
+.
+> POST
+> /521
+< status 521
+.
+> PUT
+> /521
+< status 521
+.
+> DELETE
+> /521
+< status 521
+.
+> GET
+> /522
+< status 522
+.
+> POST
+> /522
+< status 522
+.
+> PUT
+> /522
+< status 522
+.
+> DELETE
+> /522
+< status 522
+.
+> GET
+> /523
+< status 523
+.
+> POST
+> /523
+< status 523
+.
+> PUT
+> /523
+< status 523
+.
+> DELETE
+> /523
+< status 523
+.
+> GET
+> /524
+< status 524
+.
+> POST
+> /524
+< status 524
+.
+> PUT
+> /524
+< status 524
+.
+> DELETE
+> /524
+< status 524
+.
+> GET
+> /525
+< status 525
+.
+> POST
+> /525
+< status 525
+.
+> PUT
+> /525
+< status 525
+.
+> DELETE
+> /525
+< status 525
+.
+> GET
+> /526
+< status 526
+.
+> POST
+> /526
+< status 526
+.
+> PUT
+> /526
+< status 526
+.
+> DELETE
+> /526
+< status 526
+.
+> GET
+> /527
+< status 527
+.
+> POST
+> /527
+< status 527
+.
+> PUT
+> /527
+< status 527
+.
+> DELETE
+> /527
+< status 527
 .
