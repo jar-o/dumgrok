@@ -1,0 +1,207 @@
+# This dumdum stanza simply enumerates HTTP verbs and some common status codes
+# as endpoints.
+
+> GET
+> /200
+.
+> POST
+> /200
+.
+> PUT
+> /200
+.
+> DELETE
+> /200
+.
+> GET
+> /201
+.
+> POST
+> /201
+.
+> PUT
+> /201
+.
+> DELETE
+> /201
+.
+> GET
+> /202
+.
+> POST
+> /202
+.
+> PUT
+> /202
+.
+> DELETE
+> /202
+.
+> GET
+> /300
+.
+> POST
+> /300
+.
+> PUT
+> /300
+.
+> DELETE
+> /300
+.
+> GET
+> /301
+.
+> POST
+> /301
+.
+> PUT
+> /301
+.
+> DELETE
+> /301
+.
+> GET
+> /302
+.
+> POST
+> /302
+.
+> PUT
+> /302
+.
+> DELETE
+> /302
+.
+> GET
+> /304
+.
+> POST
+> /304
+.
+> PUT
+> /304
+.
+> DELETE
+> /304
+.
+> GET
+> /307
+.
+> POST
+> /307
+.
+> PUT
+> /307
+.
+> DELETE
+> /307
+.
+> GET
+> /400
+.
+> POST
+> /400
+.
+> PUT
+> /400
+.
+> DELETE
+> /400
+.
+> GET
+> /401
+.
+> POST
+> /401
+.
+> PUT
+> /401
+.
+> DELETE
+> /401
+.
+> GET
+> /403
+.
+> POST
+> /403
+.
+> PUT
+> /403
+.
+> DELETE
+> /403
+.
+> GET
+> /404
+.
+> POST
+> /404
+.
+> PUT
+> /404
+.
+> DELETE
+> /404
+.
+> GET
+> /410
+.
+> POST
+> /410
+.
+> PUT
+> /410
+.
+> DELETE
+> /410
+.
+> GET
+> /500
+.
+> POST
+> /500
+.
+> PUT
+> /500
+.
+> DELETE
+> /500
+.
+> GET
+> /501
+.
+> POST
+> /501
+.
+> PUT
+> /501
+.
+> DELETE
+> /501
+.
+> GET
+> /503
+.
+> POST
+> /503
+.
+> PUT
+> /503
+.
+> DELETE
+> /503
+.
+> GET
+> /550
+.
+> POST
+> /550
+.
+> PUT
+> /550
+.
+> DELETE
+> /550
+.
